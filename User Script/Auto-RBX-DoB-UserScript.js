@@ -42,13 +42,13 @@
     // Setting Date Of Birth
     if (monthDropdown && dayDropdown && yearDropdown) {
         if (month && day && year) {
-            // Change month to September
+            // Change month to whatever is set to "month"
             triggerChangeEvent(monthDropdown, month);
 
-            // Change day to 10
+            //  Change month to whatever is set to "day"
             triggerChangeEvent(dayDropdown, day);
 
-            // Change year to 2004
+            //  Change month to whatever is set to "year"
             triggerChangeEvent(yearDropdown, year);
 
             console.log('[Auto Set Roblox DoB Script] Birthdate selected successfully.');
